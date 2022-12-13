@@ -102,10 +102,6 @@ const Applications = () => {
       <Typography.Text className="description">{description}</Typography.Text>
 
       <Table dataSource={applications} rowKey="_id" columns={columns} />
-      <iframe
-        className="application__sender"
-        src="http://localhost:3000/application/63976a7d12923590421bc182"
-      ></iframe>
     </Styled>
   );
 };

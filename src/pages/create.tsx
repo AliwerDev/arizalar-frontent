@@ -6,19 +6,11 @@ import styled from "styled-components";
 import { postMethodAxios } from "../api";
 
 const StyledApplication = styled.div`
-  padding: 40px;
+  padding: 15px;
   border-radius: 8px;
 
   .phone-input {
     width: 100%;
-  }
-
-  .wrapper {
-    max-width: 600px;
-    border-radius: 10px;
-    background: #ebf0ef;
-    margin: 0 auto;
-    padding: 20px;
   }
 `;
 
