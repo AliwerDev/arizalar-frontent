@@ -1,7 +1,7 @@
 import axios from "axios";
 import { pick } from "lodash";
 import { SignInDataType, SignUpDataType } from "../components/types";
-const baseUrl1 = "http://localhost:5000/api/";
+const baseUrl1 = "https://arizalar-backend.vercel.app/api/";
 
 export const tokenName = "application_token";
 
