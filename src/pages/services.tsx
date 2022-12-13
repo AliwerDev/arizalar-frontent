@@ -64,7 +64,7 @@ const Services = ({ messageApi }: { messageApi: any }) => {
             <Typography.Title
               level={5}
               copyable={{
-                text: ` <iframe className="application__sender" src="http://localhost:3000/application/${row._id}"></iframe>`,
+                text: ` <iframe className="application__sender" src="http://arizalar-frontent.vercel.app/application/${row._id}"></iframe>`,
               }}
             >
               Iframe
@@ -82,10 +82,10 @@ const Services = ({ messageApi }: { messageApi: any }) => {
             <Typography.Title
               level={5}
               copyable={{
-                text: `http://localhost:3000/application/${row._id}`,
+                text: `http://arizalar-backend.vercel.app/application/${row._id}`,
               }}
             >
-              Id
+              api
             </Typography.Title>
           </span>
         );

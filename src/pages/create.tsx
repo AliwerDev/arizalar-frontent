@@ -32,7 +32,6 @@ const CreateApplication = ({ messageApi }: any) => {
       `/application/${get(params, "serviceId")}`,
       values
     );
-    console.log(res);
     if (res.success) {
       messageApi.success("Arizangiz muvaffaqqiyatli yuborildi!");
       navigate("/");
